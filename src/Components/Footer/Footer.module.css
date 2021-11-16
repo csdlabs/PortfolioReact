@@ -1,0 +1,60 @@
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+}
+.image{
+    width: 623px;
+    height: 380px;
+    margin-bottom: 40px;
+    animation: shaky 2s infinite linear;
+}
+.icons{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.icon{
+    width: 75px;
+    height: 75px;
+    text-decoration: none;
+}
+.icon + .icon{
+    margin-left: 25px;
+}
+.copyright{
+    font-size: 24px;
+    color: #fff;
+}
+.copyrightLightMode{
+    font-size: 24px;
+    color: #000;
+}
+@keyframes shaky {
+    0% { transform: translate(20px, 0px) rotate(5deg); }
+    20% { transform: translate(0px, 0px) rotate(1deg); }
+    50% { transform: translate(20px, 0px) rotate(-5deg); }
+    70% { transform: translate(0px, 0px) rotate(0deg); }
+    100% { transform: translate(20px, 0px) rotate(5deg); }
+}
+@media screen and (max-width: 700px){
+    .image{
+        width: 500px;
+        height: 320px;
+    }
+}
+@media screen and (max-width: 500px){
+    .image{
+        width: 350px;
+        height: 220px;
+    }
+}
+@media screen and (max-width: 410px){
+    .image{
+        width: 300px;
+        height: 170px;
+    }
+}

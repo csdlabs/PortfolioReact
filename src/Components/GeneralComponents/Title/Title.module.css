@@ -1,0 +1,40 @@
+.title,
+.titleLightMode
+{
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    animation: title 3s cubic-bezier(.46,.03,.52,.96) infinite forwards;
+
+}
+.titleLightMode{
+    color: #000000;
+}
+
+@keyframes title {
+    0% { font-weight: 100}
+    25% { font-weight: 100}
+    50% { font-weight: 700}
+    75% { font-weight: 700}
+    100% { font-weight: 700 }
+}
+@media screen and (max-width: 880px){
+    .title,
+    .titleLightMode{
+        animation: none;
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .title,
+    .titleLightMode{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 370px){
+    .title,
+    .titleLightMode{
+        font-size: 26px;
+    }
+}

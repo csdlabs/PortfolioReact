@@ -1,0 +1,23 @@
+.inner{
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0px 40px;
+}
+@media screen and (max-width: 1110px){
+    .skills{
+        margin-top: 50px;
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 650px){
+    .inner{
+        margin-bottom: 50px;
+    }
+}

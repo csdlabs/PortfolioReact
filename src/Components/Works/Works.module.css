@@ -1,0 +1,30 @@
+.inner{
+    padding: 0% 7%;
+}
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-bottom: 70px;
+    margin: 100px auto 0px;
+}
+@media screen and (max-width: 1660px){
+  .inner{
+      padding: 0% 2.4%;
+  }
+}
+@media screen and (max-width: 1160px){
+    .inner{
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 1110px){
+    .works{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 650px){
+    .works{
+        padding-bottom: 50px;
+    }
+}
