@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/PortfolioReact/static/css/main.1bcd4b36.chunk.css",
+    "main.js": "/PortfolioReact/static/js/main.1c48637d.chunk.js",
+    "main.js.map": "/PortfolioReact/static/js/main.1c48637d.chunk.js.map",
+    "runtime-main.js": "/PortfolioReact/static/js/runtime-main.201cca5f.js",
+    "runtime-main.js.map": "/PortfolioReact/static/js/runtime-main.201cca5f.js.map",
+    "static/js/2.e71f27b9.chunk.js": "/PortfolioReact/static/js/2.e71f27b9.chunk.js",
+    "static/js/2.e71f27b9.chunk.js.map": "/PortfolioReact/static/js/2.e71f27b9.chunk.js.map",
+    "static/js/3.a000a95f.chunk.js": "/PortfolioReact/static/js/3.a000a95f.chunk.js",
+    "static/js/3.a000a95f.chunk.js.map": "/PortfolioReact/static/js/3.a000a95f.chunk.js.map",
+    "index.html": "/PortfolioReact/index.html",
+    "static/css/main.1bcd4b36.chunk.css.map": "/PortfolioReact/static/css/main.1bcd4b36.chunk.css.map",
+    "static/js/2.e71f27b9.chunk.js.LICENSE.txt": "/PortfolioReact/static/js/2.e71f27b9.chunk.js.LICENSE.txt",
+    "static/media/css.1334cb45.png": "/PortfolioReact/static/media/css.1334cb45.png",
+    "static/media/footer-img.9885b1d0.png": "/PortfolioReact/static/media/footer-img.9885b1d0.png",
+    "static/media/gmail.348a3e21.png": "/PortfolioReact/static/media/gmail.348a3e21.png",
+    "static/media/header-logo.cd9178d3.png": "/PortfolioReact/static/media/header-logo.cd9178d3.png",
+    "static/media/hero-bg-dark.c48e4e49.jpg": "/PortfolioReact/static/media/hero-bg-dark.c48e4e49.jpg",
+    "static/media/hero-bg-light.342d483e.jpg": "/PortfolioReact/static/media/hero-bg-light.342d483e.jpg",
+    "static/media/js.bfea1473.png": "/PortfolioReact/static/media/js.bfea1473.png",
+    "static/media/linz.8bf1fa9b.png": "/PortfolioReact/static/media/linz.8bf1fa9b.png",
+    "static/media/nowayout.aac9b9ee.png": "/PortfolioReact/static/media/nowayout.aac9b9ee.png",
+    "static/media/nowayoutae.9232f729.png": "/PortfolioReact/static/media/nowayoutae.9232f729.png",
+    "static/media/other-skills.b57d0f1c.png": "/PortfolioReact/static/media/other-skills.b57d0f1c.png",
+    "static/media/react-redux.a05453ce.png": "/PortfolioReact/static/media/react-redux.a05453ce.png",
+    "static/media/revci.07cdf3a1.png": "/PortfolioReact/static/media/revci.07cdf3a1.png",
+    "static/media/soft-skills.73af86c6.png": "/PortfolioReact/static/media/soft-skills.73af86c6.png",
+    "static/media/telegram.28f6fc50.png": "/PortfolioReact/static/media/telegram.28f6fc50.png",
+    "static/media/ts.bb13ebd9.png": "/PortfolioReact/static/media/ts.bb13ebd9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.201cca5f.js",
+    "static/js/2.e71f27b9.chunk.js",
+    "static/css/main.1bcd4b36.chunk.css",
+    "static/js/main.1c48637d.chunk.js"
+  ]
+}
