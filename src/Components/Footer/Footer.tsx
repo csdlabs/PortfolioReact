@@ -4,12 +4,13 @@ import footerImg from '../../images/footer-img.png'
 import Title from "../GeneralComponents/Title/Title";
 import telegramIcon from "../../images/telegram.png"
 import gmailIcon from "../../images/gmail.png"
+import arrowUp from '../../images/arrow.png'
 
 type FooterPropsType = {
     darkMode: boolean
 }
 
-const Footer = ({darkMode} : FooterPropsType) => {
+const Footer = React.memo(({darkMode} : FooterPropsType) => {
     return (
         <footer>
             <div className={classes.inner}>
@@ -27,6 +28,6 @@ const Footer = ({darkMode} : FooterPropsType) => {
             </div>
         </footer>
     )
-}
+})
 
 export default Footer

@@ -6,12 +6,11 @@ type ContactsPropsType = {
     darkMode: boolean
 }
 
-const Contacts = ({darkMode}:ContactsPropsType) => {
+const Contacts = React.memo(({darkMode}:ContactsPropsType) => {
     return(
         <section className={classes.inner} id={'contacts'}>
             <Title darkMode={darkMode} title={'Contacts'}/>
-
         </section>
     )
-}
+})
 export default Contacts

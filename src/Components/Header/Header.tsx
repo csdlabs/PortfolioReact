@@ -9,7 +9,7 @@ type HeaderPropsType = {
 }
 
 
-const Header = ({darkMode, setDarkMode}: HeaderPropsType) => {
+const Header = React.memo(({darkMode, setDarkMode}: HeaderPropsType) => {
     return (
         <header id={'header'}>
             <div className={classes.inner}>
@@ -59,6 +59,6 @@ const Header = ({darkMode, setDarkMode}: HeaderPropsType) => {
             </div>
         </header>
     )
-}
+})
 
 export default Header

@@ -12,7 +12,7 @@ type WorksPropsType = {
     darkMode: boolean
 }
 
-const Works = ({darkMode}: WorksPropsType) => {
+const Works = React.memo(({darkMode}: WorksPropsType) => {
     return (
         <section className={classes.inner} id={'works'}>
             <Title darkMode={darkMode} title={'Watch my latest projects'}/>
@@ -20,10 +20,8 @@ const Works = ({darkMode}: WorksPropsType) => {
                 <Work
                     projectNumber={'01'}
                     title={'Revci'}
-                    text={'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla'}
+                    text={'Revci.com is service, with which the business owner can receive instant notifications about complaints, ' +
+                    'allowing them to take immediate action. It’s fast, easy to use and provides tangible results.'}
                     image={revciImg}
                     siteLink={'https://revci.com/'}
                     darkMode={darkMode}
@@ -31,10 +29,7 @@ const Works = ({darkMode}: WorksPropsType) => {
                 <Work
                     projectNumber={'02'}
                     title={'NoWayOut AU'}
-                    text={'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla'}
+                    text={'Website for NoWayOut quest rooms in Vienna, Austria.'}
                     image={nowayoutImg}
                     siteLink={'https://www.nowayout-escape.at/'}
                     darkMode={darkMode}
@@ -42,10 +37,7 @@ const Works = ({darkMode}: WorksPropsType) => {
                 <Work
                     projectNumber={'03'}
                     title={'NoWayOut AE'}
-                    text={'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla'}
+                    text={'Website for NoWayOut quest rooms in Dubai, AE.'}
                     image={nowayoutAeImg}
                     siteLink={'https://www.nowayout.ae/'}
                     darkMode={darkMode}
@@ -53,10 +45,7 @@ const Works = ({darkMode}: WorksPropsType) => {
                 <Work
                     projectNumber={'04'}
                     title={'Lasertron'}
-                    text={'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla' +
-                    'Bla bla bla'}
+                    text={'Website for Lasertron game room in Linz, Austria.'}
                     image={lasertronImg}
                     siteLink={'https://lasertron-linz.at/'}
                     darkMode={darkMode}
@@ -64,6 +53,6 @@ const Works = ({darkMode}: WorksPropsType) => {
             </div>
         </section>
     )
-}
+})
 
 export default Works

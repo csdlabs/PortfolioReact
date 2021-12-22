@@ -7,13 +7,13 @@ type ButtonPropsType = {
     darkMode?: boolean
 }
 
-const Button = ({title, siteLink, darkMode}: ButtonPropsType) => {
+const Button = React.memo(({title, siteLink, darkMode}: ButtonPropsType) => {
     return (
         <a href={siteLink} className={darkMode ? classes.btn : classes.btnLightMode}>
             <p>{title}</p>
         </a>
     )
-}
+})
 
 
 

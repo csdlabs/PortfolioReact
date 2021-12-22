@@ -8,10 +8,10 @@ type SkillPropsType = {
     image: string
     text: string
     darkMode: boolean
-    setDarkMode: any
+
 }
 
-const Skill = ({title, image, text, darkMode, setDarkMode}: SkillPropsType) => {
+const Skill = React.memo(({title, image, text, darkMode}: SkillPropsType) => {
     return(
         <div className={darkMode ? classes.inner : classes.innerLightMode}>
             <div className={classes.bg}>
@@ -25,6 +25,6 @@ const Skill = ({title, image, text, darkMode, setDarkMode}: SkillPropsType) => {
 
         </div>
     )
-}
+})
 
 export default Skill

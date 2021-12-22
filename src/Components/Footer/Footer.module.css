@@ -5,6 +5,8 @@
     flex-direction: column;
     padding-bottom: 30px;
     overflow-x: hidden;
+    position: relative;
+    padding-top: 50px;
 }
 .image{
     width: 623px;

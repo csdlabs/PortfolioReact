@@ -6,13 +6,10 @@ type TitlePropsType = {
     darkMode?: boolean
 }
 
-
-
-
-const Title = ({title, darkMode}: TitlePropsType) => {
+const Title = React.memo(({title, darkMode}: TitlePropsType) => {
     return(
         <h2 className={darkMode? classes.title : classes.titleLightMode} >{title}</h2>
     )
-}
+})
 
 export default Title

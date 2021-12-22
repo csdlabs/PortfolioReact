@@ -12,7 +12,7 @@ export type WorkPropsType = {
     darkMode: boolean
 }
 
-const Work = ({projectNumber, title, text, image, siteLink, darkMode}: WorkPropsType) => {
+const Work = React.memo(({projectNumber, title, text, image, siteLink, darkMode}: WorkPropsType) => {
     return(
         <div className={classes.work}>
             <div className={classes.bg_inner}>
@@ -28,6 +28,6 @@ const Work = ({projectNumber, title, text, image, siteLink, darkMode}: WorkProps
             </div>
         </div>
     )
-}
+})
 
 export default Work

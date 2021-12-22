@@ -1,10 +1,10 @@
 .inner{
     margin-top: 100px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 @media screen and (max-width: 650px){
     .inner{
         margin-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 }

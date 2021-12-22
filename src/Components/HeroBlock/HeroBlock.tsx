@@ -6,11 +6,9 @@ import heroBgDark from "../../images/hero-bg-dark.jpg"
 
 type HeroBLockPropsType = {
     darkMode: boolean
-    setDarkMode: any
 }
 
-
-const HeroBlock = ({darkMode, setDarkMode}: HeroBLockPropsType) => {
+const HeroBlock = React.memo(({darkMode}: HeroBLockPropsType) => {
     return(
         <section className={classes.inner}>
             <img src={darkMode ? heroBgLight : heroBgDark} alt="hero-block-bg"/>
@@ -19,6 +17,6 @@ const HeroBlock = ({darkMode, setDarkMode}: HeroBLockPropsType) => {
             </div>
         </section>
     )
-}
+})
 
 export default HeroBlock

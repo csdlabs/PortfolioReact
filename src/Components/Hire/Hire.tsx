@@ -7,7 +7,7 @@ type HirePropsType = {
     darkMode: boolean
 }
 
-const Hire = ({darkMode}: HirePropsType) => {
+const Hire = React.memo(({darkMode}: HirePropsType) => {
     return(
         <section>
             <div className={classes.inner}>
@@ -19,6 +19,6 @@ const Hire = ({darkMode}: HirePropsType) => {
             </div>
         </section>
     )
-}
+})
 export default Hire
 
