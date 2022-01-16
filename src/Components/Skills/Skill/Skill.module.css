@@ -20,6 +20,10 @@
 .innerLightMode + .innerLightMode{
     margin-left: 40px;
 }
+.inner:nth-child(5),
+.innerLightMode{
+    margin-left: 0px;
+}
 .bg{
     height: 100%;
     width: 100%;
@@ -72,12 +76,21 @@
     .innerLightMode{
         max-width: 30%;
     }
+    /*.inner:nth-child(4),*/
+    /*.innerLightMode:nth-child(4),*/
+    /*.inner:last-child,*/
+    /*.innerLightMode:last-child{*/
+    /*    margin-left: 0px;*/
+    /*}*/
     .inner:nth-child(4),
-    .innerLightMode:nth-child(4),
-    .inner:last-child,
-    .innerLightMode:last-child{
+    .innerLightMode{
         margin-left: 0px;
     }
+    .inner:nth-child(5),
+    .innerLightMode{
+        margin-left: 40px;
+    }
+
 }
 @media screen and (max-width: 1110px){
     .inner,

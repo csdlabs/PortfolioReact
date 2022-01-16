@@ -4,7 +4,7 @@ import footerImg from '../../images/footer-img.png'
 import Title from "../GeneralComponents/Title/Title";
 import telegramIcon from "../../images/telegram.png"
 import gmailIcon from "../../images/gmail.png"
-import arrowUp from '../../images/arrow.png'
+
 
 type FooterPropsType = {
     darkMode: boolean

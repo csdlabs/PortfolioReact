@@ -8,7 +8,6 @@ import cssIcon from '../../images/css.png'
 import htmlIcon from '../../images/html.png'
 import tsIcon from '../../images/ts.png'
 import softIcon from '../../images/soft-skills.png'
-import otherSkillsIcon from '../../images/other-skills.png'
 
 type SkillsPropsType = {
     darkMode: boolean
@@ -21,44 +20,26 @@ const Skills = React.memo(({darkMode}: SkillsPropsType) => {
             <div className={classes.skills}>
                 <Skill title={'Javascript'}
                        image={jsIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
                        darkMode={darkMode}
                 />
                 <Skill title={'React-Redux'}
                        image={reactIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
+                       darkMode={darkMode}
+                />
+                <Skill title={'Typescript'}
+                       image={tsIcon}
                        darkMode={darkMode}
                 />
                 <Skill title={'CSS/SCSS'}
                        image={cssIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
                        darkMode={darkMode}
                 />
                 <Skill title={'HTML'}
                        image={htmlIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
-                       darkMode={darkMode}
-                />
-                <Skill title={'Typescript'}
-                        image={tsIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
                        darkMode={darkMode}
                 />
                 <Skill title={'Soft skills'}
                        image={softIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
-                       darkMode={darkMode}
-                />
-                <Skill title={'Other skills'}
-                       image={otherSkillsIcon}
-                       text={'Bla bla bla Bla bla bla' +
-                       ' Bla bla bla Bla bla bla'}
                        darkMode={darkMode}
                 />
             </div>

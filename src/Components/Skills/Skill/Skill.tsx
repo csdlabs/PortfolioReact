@@ -6,12 +6,11 @@ import skillBgDark from "../../../images/hero-bg-dark.jpg"
 type SkillPropsType = {
     title: string
     image: string
-    text: string
     darkMode: boolean
 
 }
 
-const Skill = React.memo(({title, image, text, darkMode}: SkillPropsType) => {
+const Skill = React.memo(({title, image, darkMode}: SkillPropsType) => {
     return(
         <div className={darkMode ? classes.inner : classes.innerLightMode}>
             <div className={classes.bg}>
@@ -20,7 +19,6 @@ const Skill = React.memo(({title, image, text, darkMode}: SkillPropsType) => {
             <div className={darkMode ? classes.description : classes.descriptionLightMode}>
                 <img src={image} alt="logo" className={classes.logo}/>
                 <h3 className={classes.title}>{title}</h3>
-                <p className={classes.text}>{text}</p>
             </div>
 
         </div>
